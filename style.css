@@ -12,7 +12,7 @@ a, a:hover, a:visited, a:active {
 header {
   text-align: center;
   width: 100%;
-  background-color: #55c4a2;
+  background-color: #45a186;
   height: 80px;
   padding-top: 0, 9%;
   font-size: 190%;
@@ -155,7 +155,7 @@ i {
 /*-----Prochainement-----*/
 article {
   text-align: center;
-  background-color: #55c4a2;
+  background-color: #45a186;
   margin-bottom: 8%;
   font-size: 200%;
   width: 35%;
@@ -171,7 +171,7 @@ article {
 
 /*-----Bandeau bas-----*/
 footer {
-  background-color: #55c4a2;
+  background-color: #45a186;
   position: fixed;
   bottom: 0;
   left: 0;
