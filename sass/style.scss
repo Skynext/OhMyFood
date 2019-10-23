@@ -1,4 +1,7 @@
-/*-----Generale-----*/
+/*--------------------Generale--------------------
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------*/
 *
 {
     margin: 0;
@@ -9,9 +12,11 @@ a, a:hover, a:visited, a:active
 {
 	text-decoration: none;
 }
-
-/*-----Bandeau Haut-----*/
-header
+/*--------------------Bandeau Haut----------------
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------*/
+.bandeautitre
 {
     text-align: center;
     width: 100%;
@@ -20,87 +25,88 @@ header
     padding-top: 0,9%;
     font-size: 190%;
 }
-h1
+.titre
 {
     color: rgb(248, 205, 63);
 }
-
-
-/*-----Corps du site-----*/
-#menu1menu2
+/*--------------------Corps du site---------------
+--------------------------------------------------
+--------------------------------------------------
+--------------------------------------------------*/
+#menu1234
 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-bottom: 80px;
-    height: 500px;
     margin-top: 5%;
+    margin-bottom: 5%;
     font-size: 200%;
+    text-align: center;   
 }
-#menu3menu4
+#transform
 {
+    height: 600px;
+    width: 500px;
+    box-shadow: 1px 1px 12px rgb(104, 103, 103);
     display: flex;
-    justify-content: space-around;
-    height: 500px;
-    margin-bottom: 10%;
-    font-size: 200%;
+    justify-content: center;
+    align-items: center;
+}
+.background1
+{
+    background-color: rgb(253, 220, 225);
+}
+.background2
+{
+    background-color: rgb(252, 239, 241);
+}
+.background3
+{
+    margin-top: 5%;
+    background-color: rgb(219, 219, 219);
+}
+.background4
+{
+    margin-top: 5%;
 }
 #Menu1
 {
-    border-width: 0px;
-    box-shadow: 1px 1px 12px #555;
-    width: 35%;
-    text-align: center;
-    background-color: rgb(253, 220, 225);
-    padding-top: 10%;
     transform: scale(1);
     transition: transform 400ms;
     &:hover 
     {
-        transform: scale(1.15);
+        transform: scale(1.5);
+        opacity: 0.5; 
     }
 }
 #Menu2
 {
-    border-width: 0px;
-    box-shadow: 1px 1px 12px #555;
-    width: 35%;
-    text-align: center;
-    background-color: rgb(252, 239, 241);
-    padding-top: 13%;
     transform: scale(1);
     transition: transform 400ms;
     &:hover 
     {
-        transform: scale(1.15);
+        transform: scale(1.5);
+        opacity: 0.5;
     }
 }
 #Menu3
 {
-    border-width: 0px;
-    box-shadow: 1px 1px 12px #555;
-    width: 35%;
-    text-align: center;
-    background-color: rgb(214, 214, 214);
-    padding-top: 13%;
     transform: scale(1);
     transition: transform 400ms;
     &:hover 
     {
-        transform: scale(1.15);
+        transform: scale(1.5);
+        opacity: 0.5;
     }
 }
 #Menu4
 {
-    border-width: 0px;
-    box-shadow: 1px 1px 12px #555;
-    width: 35%;
-    text-align: center;
-    padding-top: 13%;
     transform: scale(1);
     transition: transform 400ms;
     &:hover 
     {
-        transform: scale(1.15);
+        transform: scale(1.5);
+        opacity: 0.5;
     }
 }
 .texte1
@@ -160,9 +166,10 @@ i
     background-clip: text;
     -webkit-background-clip: text;
 }
-
-
-/*-----Prochainement-----*/
+/*--------------------Prochainement--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
 article
 {
     text-align: center;
@@ -173,16 +180,29 @@ article
     border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
-}
+} 
 .prochainement
 {
     color: rgb(248, 205, 63);
     font-size: 150%;
 }
+.point1
+{
 
+}
+.point2
+{
 
-/*-----Bandeau bas-----*/
-footer
+}
+.point3
+{
+
+}
+/*--------------------Bandeau bas--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
+.bandeaufooter
 {
     background-color: rgb(69, 161, 134);
     position: fixed;
@@ -199,15 +219,309 @@ footer
 {
     color: rgb(248, 205, 63);
     margin-left: 15%;
-    width: 400px;
+    width: 300px;
 }
+    .mentions:hover{
+    animation: thing .1s ease-in-out .1s infinite alternate;
+    }
+    @keyframes thing
+    {
+    from {
+        transform: rotate(10deg);
+    }
+    to{
+        transform: rotate(-10deg);
+        transform-origin: center center;
+    }
+    }
 .contact
 {
     color: rgb(248, 205, 63);
     margin-right: 15%;
     width: 300px;
 }
+    .contact:hover {
+        animation: thing1 .1s ease-in-out .1s infinite alternate;
+    }
+    @keyframes thing1 {
+    from {
+        transform: rotate(10deg);
+    }
+    to {
+        transform: rotate(-10deg);
+        transform-origin: center center;
+    }
+    }
+
+
+
+/* --------------------ALL MENU------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+#groupetrait
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+.textmenu
+{
+    text-align: left;
+    margin: 0 auto;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+/* --------------------MENU 1--------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+.trait1menu1
+{
+    border-top: 4px solid rgb(85, 61, 30);
+    width: 20%;
+    margin-right: 10px;
+}
+.trait2menu1
+{
+    border-top: 4px solid rgb(85, 61, 30);
+    width: 20%;
+    margin-left: 10px;
+}
+.titresousmenu1
+{
+    margin-top: -13px;
+    color: rgb(85, 61, 30);
+}
+.backgroundmenu1
+{
+    background-color: rgb(253, 220, 225);
+}
+.titremenu1bis
+{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(85, 61, 30);
+}
+.colortextmenu1
+{
+    color: rgb(85, 61, 30);
+}
+/*-----Footer-----*/
+.pieddepage
+{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/* --------------------MENU 2--------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+.colortext1menu2
+{
+    color: rgb(243, 180, 43);
+}
+.colortext2menu2
+{
+    color: rgb(147, 82, 231);
+}
+.colortext3menu2
+{
+    color: rgb(78, 67, 233);
+}
+.trait1menu2-
+{
+    border-top: 4px solid rgb(243, 180, 43);
+    width: 20%;
+    margin-right: 10px;
+}
+.trait2menu2-
+{
+    border-top: 4px solid rgb(243, 180, 43);
+    width: 20%;
+    margin-left: 10px;
+}
+.trait1menu2--
+{
+    border-top: 4px solid rgb(147, 82, 231);
+    width: 20%;
+    margin-right: 10px;
+}
+.trait2menu2--
+{
+    border-top: 4px solid rgb(147, 82, 231);
+    width: 20%;
+    margin-left: 10px;
+}
+.trait1menu2---
+{
+    border-top: 4px solid rgb(78, 67, 233);
+    width: 20%;
+    margin-right: 10px;
+}
+.trait2menu2---
+{
+    border-top: 4px solid rgb(78, 67, 233);
+    width: 20%;
+    margin-left: 10px;
+}
+.titresousmenu2-
+{
+    margin-top: -13px;
+    color: rgb(243, 180, 43);
+}
+.titresousmenu2--
+{
+    margin-top: -13px;
+    color: rgb(147, 82, 231);
+}
+.titresousmenu2---
+{
+    margin-top: -13px;
+    color: rgb(78, 67, 233);
+}
+.backgroundmenu2
+{
+    background-color: rgb(252, 239, 241);
+}
+.titremenu2bis
+{
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
+    background-image: linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+/* --------------------MENU 3--------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+.trait1menu3-
+{
+    border-top: 4px solid rgb(33, 30, 228);
+    width: 20%;
+    margin-right: 10px;
+}
+.trait2menu3-
+{
+    border-top: 4px solid rgb(33, 30, 228);
+    width: 20%;
+    margin-left: 10px;
+}
+.trait1menu3--
+{
+    border-top: 4px solid rgb(63, 129, 252);
+    width: 20%;
+    margin-right: 10px;
+}
+.trait2menu3--
+{
+    border-top: 4px solid rgb(63, 129, 252);
+    width: 20%;
+    margin-left: 10px;
+}
+.trait1menu3---
+{
+    border-top: 4px solid rgb(63, 192, 252);
+    width: 20%;
+    margin-right: 10px;
+}
+.trait2menu3---
+{
+    border-top: 4px solid rgb(63, 192, 252);
+    width: 20%;
+    margin-left: 10px;
+}
+.titresousmenu3
+{
+    margin-top: -13px;
+}
+.backgroundmenu3
+{
+    background-color: rgb(219, 219, 219);
+}
+.titremenu3bis
+{
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
+    background-image: linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+/* --------------------MENU 4--------------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+.trait1menu4
+{
+    border-top: 4px solid black;
+    width: 20%;
+    margin-right: 10px;
+}
+.trait2menu4
+{
+    border-top: 4px solid black;
+    width: 20%;
+    margin-left: 10px;
+}
+.titresousmenu4
+{
+    margin-top: -13px;
+}
+.titremenu4bis
+{
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
+    background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+/* --------------------MENTIONS LEGALES--------------------
+-----------------------------------------------------------
+-----------------------------------------------------------
+----------------------------------------------------------- */
 
 
 
 
+
+
+
+
+
+/* --------------------MEDIA 1000px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+@media all and (max-width: 1000px)
+{
+    .background2
+    {
+        margin-top: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+/* --------------------MEDIA 800px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+@media all and (max-width: 800px)
+{
+    
+}
