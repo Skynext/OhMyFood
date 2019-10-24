@@ -260,19 +260,17 @@ article {
 -------------------------------------------------------
 ------------------------------------------------------- */
 .trait1menu1 {
-  border-top: 4px solid #553d1e;
   width: 20%;
   margin-right: 10px;
 }
 
 .trait2menu1 {
-  border-top: 4px solid #553d1e;
   width: 20%;
   margin-left: 10px;
 }
 
 .titresousmenu1 {
-  margin-top: -13px;
+  margin-top: -2px;
   color: #553d1e;
 }
 
@@ -314,53 +312,47 @@ article {
 }
 
 .trait1menu2- {
-  border-top: 4px solid #f3b42b;
   width: 20%;
   margin-right: 10px;
 }
 
 .trait2menu2- {
-  border-top: 4px solid #f3b42b;
   width: 20%;
   margin-left: 10px;
 }
 
 .trait1menu2-- {
-  border-top: 4px solid #9352e7;
   width: 20%;
   margin-right: 10px;
 }
 
 .trait2menu2-- {
-  border-top: 4px solid #9352e7;
   width: 20%;
   margin-left: 10px;
 }
 
 .trait1menu2--- {
-  border-top: 4px solid #4e43e9;
   width: 20%;
   margin-right: 10px;
 }
 
 .trait2menu2--- {
-  border-top: 4px solid #4e43e9;
   width: 20%;
   margin-left: 10px;
 }
 
 .titresousmenu2- {
-  margin-top: -13px;
+  margin-top: -2px;
   color: #f3b42b;
 }
 
 .titresousmenu2-- {
-  margin-top: -13px;
+  margin-top: -2px;
   color: #9352e7;
 }
 
 .titresousmenu2--- {
-  margin-top: -13px;
+  margin-top: -2px;
   color: #4e43e9;
 }
 
@@ -383,43 +375,37 @@ article {
 -------------------------------------------------------
 ------------------------------------------------------- */
 .trait1menu3- {
-  border-top: 4px solid #211ee4;
   width: 20%;
   margin-right: 10px;
 }
 
 .trait2menu3- {
-  border-top: 4px solid #211ee4;
   width: 20%;
   margin-left: 10px;
 }
 
 .trait1menu3-- {
-  border-top: 4px solid #3f81fc;
   width: 20%;
   margin-right: 10px;
 }
 
 .trait2menu3-- {
-  border-top: 4px solid #3f81fc;
   width: 20%;
   margin-left: 10px;
 }
 
 .trait1menu3--- {
-  border-top: 4px solid #3fc0fc;
   width: 20%;
   margin-right: 10px;
 }
 
 .trait2menu3--- {
-  border-top: 4px solid #3fc0fc;
   width: 20%;
   margin-left: 10px;
 }
 
 .titresousmenu3 {
-  margin-top: -13px;
+  margin-top: 3px;
 }
 
 .backgroundmenu3 {
@@ -441,19 +427,17 @@ article {
 -------------------------------------------------------
 ------------------------------------------------------- */
 .trait1menu4 {
-  border-top: 4px solid black;
   width: 20%;
   margin-right: 10px;
 }
 
 .trait2menu4 {
-  border-top: 4px solid black;
   width: 20%;
   margin-left: 10px;
 }
 
 .titresousmenu4 {
-  margin-top: -13px;
+  margin-top: 0px;
 }
 
 .titremenu4bis {
@@ -479,9 +463,96 @@ article {
     margin-top: 5%;
   }
 }
-/* --------------------MEDIA 800px--------------------
+/* --------------------MEDIA 700px--------------------
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+@media all and (max-width: 700px) {
+  /* ----------BODY----------*/
+  #menu1234 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 200%;
+    text-align: center;
+  }
+
+  #transform {
+    height: 500px;
+    width: 400px;
+    box-shadow: 1px 1px 12px #686767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #Menu1 {
+    transform: scale(1);
+    transition: transform 400ms;
+  }
+  #Menu1:hover {
+    transform: scale(1.25);
+    opacity: 0.5;
+  }
+
+  #Menu2 {
+    transform: scale(1);
+    transition: transform 400ms;
+  }
+  #Menu2:hover {
+    transform: scale(1.25);
+    opacity: 0.5;
+  }
+
+  #Menu3 {
+    transform: scale(1);
+    transition: transform 400ms;
+  }
+  #Menu3:hover {
+    transform: scale(1.25);
+    opacity: 0.5;
+  }
+
+  #Menu4 {
+    transform: scale(1);
+    transition: transform 400ms;
+  }
+  #Menu4:hover {
+    transform: scale(1.25);
+    opacity: 0.5;
+  }
+
+  /*----------FOOTER----------*/
+  .bandeaufooter {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 150%;
+  }
+
+  article {
+    text-align: center;
+    background-color: #45a186;
+    margin-bottom: 12%;
+    font-size: 200%;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 80%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

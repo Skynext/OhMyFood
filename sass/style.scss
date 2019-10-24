@@ -280,19 +280,17 @@ article
 ------------------------------------------------------- */
 .trait1menu1
 {
-    border-top: 4px solid rgb(85, 61, 30);
     width: 20%;
     margin-right: 10px;
 }
 .trait2menu1
 {
-    border-top: 4px solid rgb(85, 61, 30);
     width: 20%;
     margin-left: 10px;
 }
 .titresousmenu1
 {
-    margin-top: -13px;
+    margin-top: -2px;
     color: rgb(85, 61, 30);
 }
 .backgroundmenu1
@@ -334,53 +332,49 @@ article
 }
 .trait1menu2-
 {
-    border-top: 4px solid rgb(243, 180, 43);
     width: 20%;
     margin-right: 10px;
 }
 .trait2menu2-
 {
-    border-top: 4px solid rgb(243, 180, 43);
     width: 20%;
     margin-left: 10px;
 }
 .trait1menu2--
 {
-    border-top: 4px solid rgb(147, 82, 231);
+    
     width: 20%;
     margin-right: 10px;
 }
 .trait2menu2--
 {
-    border-top: 4px solid rgb(147, 82, 231);
     width: 20%;
     margin-left: 10px;
 }
 .trait1menu2---
 {
-    border-top: 4px solid rgb(78, 67, 233);
+    
     width: 20%;
     margin-right: 10px;
 }
 .trait2menu2---
 {
-    border-top: 4px solid rgb(78, 67, 233);
     width: 20%;
     margin-left: 10px;
 }
 .titresousmenu2-
 {
-    margin-top: -13px;
+    margin-top: -2px;
     color: rgb(243, 180, 43);
 }
 .titresousmenu2--
 {
-    margin-top: -13px;
+    margin-top: -2px;
     color: rgb(147, 82, 231);
 }
 .titresousmenu2---
 {
-    margin-top: -13px;
+    margin-top: -2px;
     color: rgb(78, 67, 233);
 }
 .backgroundmenu2
@@ -403,43 +397,37 @@ article
 ------------------------------------------------------- */
 .trait1menu3-
 {
-    border-top: 4px solid rgb(33, 30, 228);
     width: 20%;
     margin-right: 10px;
 }
 .trait2menu3-
 {
-    border-top: 4px solid rgb(33, 30, 228);
     width: 20%;
     margin-left: 10px;
 }
 .trait1menu3--
 {
-    border-top: 4px solid rgb(63, 129, 252);
     width: 20%;
     margin-right: 10px;
 }
 .trait2menu3--
 {
-    border-top: 4px solid rgb(63, 129, 252);
     width: 20%;
     margin-left: 10px;
 }
 .trait1menu3---
 {
-    border-top: 4px solid rgb(63, 192, 252);
     width: 20%;
     margin-right: 10px;
 }
 .trait2menu3---
 {
-    border-top: 4px solid rgb(63, 192, 252);
     width: 20%;
     margin-left: 10px;
 }
 .titresousmenu3
 {
-    margin-top: -13px;
+    margin-top: 3px;
 }
 .backgroundmenu3
 {
@@ -461,19 +449,17 @@ article
 ------------------------------------------------------- */
 .trait1menu4
 {
-    border-top: 4px solid black;
     width: 20%;
     margin-right: 10px;
 }
 .trait2menu4
 {
-    border-top: 4px solid black;
     width: 20%;
     margin-left: 10px;
 }
 .titresousmenu4
 {
-    margin-top: -13px;
+    margin-top: 0px;
 }
 .titremenu4bis
 {
@@ -517,11 +503,100 @@ article
 
 
 
-/* --------------------MEDIA 800px--------------------
+/* --------------------MEDIA 700px--------------------
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
-@media all and (max-width: 800px)
+@media all and (max-width: 700px)
 {
-    
+/* ----------BODY----------*/
+    #menu1234
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 200%;
+    text-align: center;   
+}
+#transform
+{
+    height: 500px;
+    width: 400px;
+    box-shadow: 1px 1px 12px rgb(104, 103, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Menu1
+{
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover 
+    {
+        transform: scale(1.25);
+        opacity: 0.5; 
+    }
+}
+#Menu2
+{
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover 
+    {
+        transform: scale(1.25);
+        opacity: 0.5;
+    }
+}
+#Menu3
+{
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover 
+    {
+        transform: scale(1.25);
+        opacity: 0.5;
+    }
+}
+#Menu4
+{
+    transform: scale(1);
+    transition: transform 400ms;
+    &:hover 
+    {
+        transform: scale(1.25);
+        opacity: 0.5;
+    }
+}
+/*----------FOOTER----------*/
+.bandeaufooter
+{
+    background-color: rgb(69, 161, 134);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 150%;
+}
+article
+{
+    text-align: center;
+    background-color: rgb(69, 161, 134);
+    margin-bottom: 12%;
+    font-size: 200%;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+.prochainement
+{
+    color: rgb(248, 205, 63);
+    font-size: 80%;
+}
 }
