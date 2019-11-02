@@ -69,6 +69,7 @@ a, a:hover, a:visited, a:active {
 }
 
 #Menu1 {
+  font-family: "Farsan", cursive;
   transform: scale(1);
   transition: transform 400ms;
 }
@@ -78,6 +79,7 @@ a, a:hover, a:visited, a:active {
 }
 
 #Menu2 {
+  font-family: "Crimson Pro", serif;
   transform: scale(1);
   transition: transform 400ms;
 }
@@ -87,6 +89,7 @@ a, a:hover, a:visited, a:active {
 }
 
 #Menu3 {
+  font-family: "Farsan", cursive;
   transform: scale(1);
   transition: transform 400ms;
 }
@@ -96,6 +99,7 @@ a, a:hover, a:visited, a:active {
 }
 
 #Menu4 {
+  font-family: "Farsan", cursive;
   transform: scale(1);
   transition: transform 400ms;
 }
@@ -126,6 +130,16 @@ a, a:hover, a:visited, a:active {
 
 .titremenu1 {
   color: #553d1e;
+  font-family: "Kaushan Script", cursive;
+}
+
+i {
+  font-size: 130%;
+  background-image: -webkit-linear-gradient(to right, #da1b02, #e68b14);
+  background-image: linear-gradient(to right, #da1b02, #e68b14);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .titremenu2 {
@@ -134,6 +148,7 @@ a, a:hover, a:visited, a:active {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  font-family: "Lobster Two", cursive;
 }
 
 .titremenu3 {
@@ -142,20 +157,13 @@ a, a:hover, a:visited, a:active {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+  font-family: "Allura", cursive;
 }
 
 .titremenu4 {
+  font-family: "Kavivanar", cursive;
   background-image: -webkit-linear-gradient(to right, green, #a5ff71);
   background-image: linear-gradient(to right, green, #a5ff71);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
-i {
-  font-size: 130%;
-  background-image: -webkit-linear-gradient(to right, #da1b02, #e68b14);
-  background-image: linear-gradient(to right, #da1b02, #e68b14);
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
@@ -259,6 +267,36 @@ article {
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+/*-----GENERALE-----*/
+.backgroundmenu1 {
+  background-color: #fddce1;
+}
+
+/*-----HEADER-----*/
+#logo1menu1 {
+  font-size: 380%;
+}
+
+.titremenu1bis {
+  text-align: center;
+  margin-top: 5%;
+  color: #553d1e;
+  font-family: "Kaushan Script", cursive;
+}
+
+/*-----BODY-----*/
+.titresousmenu1 {
+  margin-top: -2px;
+  color: #553d1e;
+  font-family: "Farsan", cursive;
+  background: linear-gradient(to top, #553d1e 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.titresousmenu1:hover {
+  background-size: 100% 100%;
+}
+
 .trait1menu1 {
   width: 20%;
   margin-right: 10px;
@@ -269,46 +307,103 @@ article {
   margin-left: 10px;
 }
 
-.titresousmenu1 {
-  margin-top: -2px;
-  color: #553d1e;
-}
-
-.backgroundmenu1 {
-  background-color: #fddce1;
-}
-
-.titremenu1bis {
-  text-align: center;
-  margin-top: 5%;
-  color: #553d1e;
-}
-
 .colortextmenu1 {
   color: #553d1e;
+  font-size: 120%;
+  font-family: "Farsan", cursive;
 }
 
 /*-----Footer-----*/
 .pieddepage {
-  text-align: center;
   margin-top: 10%;
   margin-bottom: 10%;
+  color: #553d1e;
+  font-size: 170%;
+  display: flex;
+  justify-content: center;
+  font-family: "Kaushan Script", cursive;
+}
+
+#logo2menu1 {
+  font-size: 120%;
+  margin-right: 20px;
 }
 
 /* --------------------MENU 2--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+/*-----GENERALE-----*/
+.backgroundmenu2 {
+  background-color: #fceff1;
+  margin-bottom: 150px;
+}
+
+/*-----HEADER-----*/
+.titremenu2bis {
+  text-align: center;
+  margin-top: 5%;
+  background-image: -webkit-linear-gradient(to right, #f3b42b, #9352e7);
+  background-image: linear-gradient(to right, #f3b42b, #9352e7);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Lobster Two", cursive;
+}
+
+/*-----BODY-----*/
+.titresousmenu2- {
+  margin-top: -2px;
+  color: #f3b42b;
+  font-family: "Crimson Pro", serif;
+  background: linear-gradient(to top, #f3b42b 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.titresousmenu2-:hover {
+  background-size: 100% 100%;
+}
+
+.titresousmenu2-- {
+  margin-top: -2px;
+  color: #9352e7;
+  font-family: "Crimson Pro", serif;
+  background: linear-gradient(to top, #9352e7 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.titresousmenu2--:hover {
+  background-size: 100% 100%;
+}
+
+.titresousmenu2--- {
+  margin-top: -2px;
+  color: #4e43e9;
+  font-family: "Crimson Pro", serif;
+  background: linear-gradient(to top, #4e43e9 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.titresousmenu2---:hover {
+  background-size: 100% 100%;
+}
+
 .colortext1menu2 {
   color: #f3b42b;
+  font-family: "Crimson Pro", serif;
 }
 
 .colortext2menu2 {
   color: #9352e7;
+  font-family: "Crimson Pro", serif;
 }
 
 .colortext3menu2 {
   color: #4e43e9;
+  font-family: "Crimson Pro", serif;
 }
 
 .trait1menu2- {
@@ -341,39 +436,71 @@ article {
   margin-left: 10px;
 }
 
-.titresousmenu2- {
-  margin-top: -2px;
-  color: #f3b42b;
-}
-
-.titresousmenu2-- {
-  margin-top: -2px;
-  color: #9352e7;
-}
-
-.titresousmenu2--- {
-  margin-top: -2px;
-  color: #4e43e9;
-}
-
-.backgroundmenu2 {
-  background-color: #fceff1;
-}
-
-.titremenu2bis {
-  text-align: center;
-  margin-top: 5%;
-  background-image: -webkit-linear-gradient(to right, #f3b42b, #9352e7);
-  background-image: linear-gradient(to right, #f3b42b, #9352e7);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 /* --------------------MENU 3--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+/*-----GENERALE-----*/
+.backgroundmenu3 {
+  background-color: #dbdbdb;
+  margin-bottom: 150px;
+}
+
+/*-----HEADER-----*/
+.titremenu3bis {
+  text-align: center;
+  margin-top: 5%;
+  background-image: -webkit-linear-gradient(to right, #211ee4, #3fc0fc);
+  background-image: linear-gradient(to right, #211ee4, #3fc0fc);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "Allura", cursive;
+  font-size: 300%;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-----BODY-----*/
+.titresousmenu3- {
+  margin-top: 3px;
+  font-family: "Farsan", cursive;
+  background: linear-gradient(to top, #211ee4 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.titresousmenu3-:hover {
+  background-size: 100% 100%;
+}
+
+.titresousmenu3-- {
+  margin-top: 3px;
+  font-family: "Farsan", cursive;
+  background: linear-gradient(to top, #3f81fc 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.titresousmenu3--:hover {
+  background-size: 100% 100%;
+}
+
+.titresousmenu3--- {
+  margin-top: 3px;
+  font-family: "Farsan", cursive;
+  background: linear-gradient(to top, #3fc0fc 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.titresousmenu3---:hover {
+  background-size: 100% 100%;
+}
+
+.colortextemenu3 {
+  font-family: "Farsan", cursive;
+  font-size: 120%;
+}
+
 .trait1menu3- {
   width: 20%;
   margin-right: 10px;
@@ -404,28 +531,47 @@ article {
   margin-left: 10px;
 }
 
-.titresousmenu3 {
-  margin-top: 3px;
-}
-
-.backgroundmenu3 {
-  background-color: #dbdbdb;
-}
-
-.titremenu3bis {
-  text-align: center;
-  margin-top: 5%;
-  background-image: -webkit-linear-gradient(to right, #211ee4, #3fc0fc);
-  background-image: linear-gradient(to right, #211ee4, #3fc0fc);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 /* --------------------MENU 4--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+/*-----GENERALE-----*/
+.backgroundmenu4 {
+  margin-bottom: 150px;
+}
+
+/*-----HEADER-----*/
+.titremenu4bis {
+  text-align: center;
+  margin-top: 5%;
+  background-image: -webkit-linear-gradient(to right, green, #a5ff71);
+  background-image: linear-gradient(to right, green, #a5ff71);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  font-family: "Kavivanar", cursive;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*-----BODY-----*/
+.titresousmenu4 {
+  margin-top: 0px;
+  font-family: "Farsan", cursive;
+  background: linear-gradient(to top, #61af34 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.titresousmenu4:hover {
+  background-size: 100% 100%;
+}
+
+.colortextemenu4 {
+  font-family: "Farsan", cursive;
+  font-size: 120%;
+}
+
 .trait1menu4 {
   width: 20%;
   margin-right: 10px;
@@ -436,24 +582,147 @@ article {
   margin-left: 10px;
 }
 
-.titresousmenu4 {
-  margin-top: 0px;
-}
-
-.titremenu4bis {
-  text-align: center;
-  margin-top: 5%;
-  background-image: -webkit-linear-gradient(to right, green, #a5ff71);
-  background-image: linear-gradient(to right, green, #a5ff71);
-  color: transparent;
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 /* --------------------MENTIONS LEGALES--------------------
 -----------------------------------------------------------
 -----------------------------------------------------------
 ----------------------------------------------------------- */
+.mentionslegales {
+  margin: 5% 5% 10% 5%;
+  font-family: "Mate SC", serif;
+}
+
+.marginmentions {
+  margin-left: 5%;
+}
+
+/* --------------------MEDIA 4096px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+@media all and (min-width: 4096px) {
+  .bandeautitre {
+    text-align: center;
+    width: 100%;
+    background-color: #45a186;
+    height: 250px;
+    padding-top: 0, 9%;
+    font-size: 600%;
+  }
+
+  #menu1234 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1000%;
+    text-align: center;
+  }
+
+  #transform {
+    height: 2400px;
+    width: 2000px;
+    box-shadow: 1px 1px 12px #686767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bandeaufooter {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 800%;
+  }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 550%;
+    margin-top: -5%;
+  }
+
+  .mentions {
+    color: #f8cd3f;
+    margin-left: 15%;
+    width: 1000px;
+  }
+
+  .contact {
+    color: #f8cd3f;
+    margin-right: 15%;
+    width: 1000px;
+  }
+}
+/* --------------------MEDIA 1500px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+@media all and (min-width: 3000px) {
+  .bandeautitre {
+    text-align: center;
+    width: 100%;
+    background-color: #45a186;
+    height: 250px;
+    padding-top: 0, 9%;
+    font-size: 600%;
+  }
+
+  #menu1234 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 1000%;
+    text-align: center;
+  }
+
+  #transform {
+    height: 2400px;
+    width: 2000px;
+    box-shadow: 1px 1px 12px #686767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bandeaufooter {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 800%;
+  }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 550%;
+    margin-top: -5%;
+  }
+
+  .mentions {
+    color: #f8cd3f;
+    margin-left: 15%;
+    width: 1000px;
+  }
+
+  .contact {
+    color: #f8cd3f;
+    margin-right: 15%;
+    width: 1000px;
+  }
+}
 /* --------------------MEDIA 1000px--------------------
 -------------------------------------------------------
 -------------------------------------------------------

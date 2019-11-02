@@ -71,6 +71,7 @@ a, a:hover, a:visited, a:active
 }
 #Menu1
 {
+    font-family: 'Farsan', cursive;
     transform: scale(1);
     transition: transform 400ms;
     &:hover 
@@ -81,6 +82,7 @@ a, a:hover, a:visited, a:active
 }
 #Menu2
 {
+    font-family: 'Crimson Pro', serif;
     transform: scale(1);
     transition: transform 400ms;
     &:hover 
@@ -91,6 +93,7 @@ a, a:hover, a:visited, a:active
 }
 #Menu3
 {
+    font-family: 'Farsan', cursive;
     transform: scale(1);
     transition: transform 400ms;
     &:hover 
@@ -101,6 +104,7 @@ a, a:hover, a:visited, a:active
 }
 #Menu4
 {
+    font-family: 'Farsan', cursive;
     transform: scale(1);
     transition: transform 400ms;
     &:hover 
@@ -131,7 +135,17 @@ a, a:hover, a:visited, a:active
 }
 .titremenu1
 {
-    color: rgb(85, 61, 30); 
+    color: rgb(85, 61, 30);
+    font-family: 'Kaushan Script', cursive;
+}
+i
+{
+    font-size: 130%;
+    background-image: -webkit-linear-gradient(to right, rgb(218, 27, 2), rgb(230, 139, 20));
+    background-image: linear-gradient(to right, rgb(218, 27, 2), rgb(230, 139, 20));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
 }
 .titremenu2
 {
@@ -140,6 +154,7 @@ a, a:hover, a:visited, a:active
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    font-family: 'Lobster Two', cursive;
 }
 .titremenu3
 {
@@ -148,20 +163,13 @@ a, a:hover, a:visited, a:active
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
+    font-family: 'Allura', cursive;
 }
 .titremenu4
 {
+    font-family: 'Kavivanar', cursive;
     background-image: -webkit-linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
-i
-{
-    font-size: 130%;
-    background-image: -webkit-linear-gradient(to right, rgb(218, 27, 2), rgb(230, 139, 20));
-    background-image: linear-gradient(to right, rgb(218, 27, 2), rgb(230, 139, 20));
     color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
@@ -278,6 +286,37 @@ article
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+/*-----GENERALE-----*/
+.backgroundmenu1
+{
+    background-color: rgb(253, 220, 225);
+}
+/*-----HEADER-----*/
+#logo1menu1
+{
+    font-size: 380%;
+}
+.titremenu1bis
+{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(85, 61, 30);
+    font-family: 'Kaushan Script', cursive;
+}
+/*-----BODY-----*/
+.titresousmenu1
+{
+    margin-top: -2px;
+    color: rgb(85, 61, 30);
+    font-family: 'Farsan', cursive;
+    background: linear-gradient(to top, rgb(85, 61, 30) 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover
+{
+    background-size: 100% 100%;
+}
+}
 .trait1menu1
 {
     width: 20%;
@@ -288,47 +327,107 @@ article
     width: 20%;
     margin-left: 10px;
 }
-.titresousmenu1
-{
-    margin-top: -2px;
-    color: rgb(85, 61, 30);
-}
-.backgroundmenu1
-{
-    background-color: rgb(253, 220, 225);
-}
-.titremenu1bis
-{
-    text-align: center;
-    margin-top: 5%;
-    color: rgb(85, 61, 30);
-}
 .colortextmenu1
 {
     color: rgb(85, 61, 30);
+    font-size: 120%;
+    font-family: 'Farsan', cursive;
 }
 /*-----Footer-----*/
 .pieddepage
 {
-    text-align: center;
     margin-top: 10%;
     margin-bottom: 10%;
+    color: rgb(85, 61, 30);
+    font-size: 170%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Kaushan Script', cursive;
+}
+#logo2menu1
+{
+    font-size: 120%;
+    margin-right: 20px;
 }
 /* --------------------MENU 2--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+/*-----GENERALE-----*/
+.backgroundmenu2
+{
+    background-color: rgb(252, 239, 241);
+    margin-bottom: 150px;
+}
+/*-----HEADER-----*/
+.titremenu2bis
+{
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
+    background-image: linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lobster Two', cursive;
+}
+/*-----BODY-----*/
+.titresousmenu2-
+{
+    margin-top: -2px;
+    color: rgb(243, 180, 43);
+    font-family: 'Crimson Pro', serif;
+    background: linear-gradient(to top, rgb(243, 180, 43) 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover
+{
+    background-size: 100% 100%;
+}
+}
+.titresousmenu2--
+{
+    margin-top: -2px;
+    color: rgb(147, 82, 231);
+    font-family: 'Crimson Pro', serif;
+    background: linear-gradient(to top, rgb(147, 82, 231) 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover
+{
+    background-size: 100% 100%;
+}
+}
+.titresousmenu2---
+{
+    margin-top: -2px;
+    color: rgb(78, 67, 233);
+    font-family: 'Crimson Pro', serif;
+    background: linear-gradient(to top, rgb(78, 67, 233) 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover
+{
+    background-size: 100% 100%;
+}
+}
 .colortext1menu2
 {
     color: rgb(243, 180, 43);
+    font-family: 'Crimson Pro', serif;
 }
 .colortext2menu2
 {
     color: rgb(147, 82, 231);
+    font-family: 'Crimson Pro', serif;
 }
 .colortext3menu2
 {
     color: rgb(78, 67, 233);
+    font-family: 'Crimson Pro', serif;
 }
 .trait1menu2-
 {
@@ -342,7 +441,6 @@ article
 }
 .trait1menu2--
 {
-    
     width: 20%;
     margin-right: 10px;
 }
@@ -353,7 +451,6 @@ article
 }
 .trait1menu2---
 {
-    
     width: 20%;
     margin-right: 10px;
 }
@@ -362,39 +459,74 @@ article
     width: 20%;
     margin-left: 10px;
 }
-.titresousmenu2-
-{
-    margin-top: -2px;
-    color: rgb(243, 180, 43);
-}
-.titresousmenu2--
-{
-    margin-top: -2px;
-    color: rgb(147, 82, 231);
-}
-.titresousmenu2---
-{
-    margin-top: -2px;
-    color: rgb(78, 67, 233);
-}
-.backgroundmenu2
-{
-    background-color: rgb(252, 239, 241);
-}
-.titremenu2bis
-{
-    text-align: center;
-    margin-top: 5%;
-    background-image: -webkit-linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
-    background-image: linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
 /* --------------------MENU 3--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+/*-----GENERALE-----*/
+.backgroundmenu3
+{
+    background-color: rgb(219, 219, 219);
+    margin-bottom: 150px;
+}
+/*-----HEADER-----*/
+.titremenu3bis
+{
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
+    background-image: linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Allura', cursive;
+    font-size: 300%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-----BODY-----*/
+.titresousmenu3-
+{
+    margin-top: 3px;
+    font-family: 'Farsan', cursive;
+    background: linear-gradient(to top, rgb(33, 30, 228) 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover
+{
+    background-size: 100% 100%;
+}
+}
+.titresousmenu3--
+{
+    margin-top: 3px;
+    font-family: 'Farsan', cursive;
+    background: linear-gradient(to top, rgb(63, 129, 252) 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover
+{
+    background-size: 100% 100%;
+}
+}
+.titresousmenu3---
+{
+    margin-top: 3px;
+    font-family: 'Farsan', cursive;
+    background: linear-gradient(to top, rgb(63, 192, 252) 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover
+{
+    background-size: 100% 100%;
+}
+}
+.colortextemenu3
+{
+    font-family: 'Farsan', cursive;
+    font-size: 120%;
+}
 .trait1menu3-
 {
     width: 20%;
@@ -425,28 +557,48 @@ article
     width: 20%;
     margin-left: 10px;
 }
-.titresousmenu3
-{
-    margin-top: 3px;
-}
-.backgroundmenu3
-{
-    background-color: rgb(219, 219, 219);
-}
-.titremenu3bis
-{
-    text-align: center;
-    margin-top: 5%;
-    background-image: -webkit-linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
-    background-image: linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
 /* --------------------MENU 4--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
 ------------------------------------------------------- */
+/*-----GENERALE-----*/
+.backgroundmenu4
+{
+    margin-bottom: 150px;
+}
+/*-----HEADER-----*/
+.titremenu4bis
+{
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
+    background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: 'Kavivanar', cursive;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-----BODY-----*/
+.titresousmenu4
+{
+    margin-top: 0px;
+    font-family: 'Farsan', cursive;
+    background: linear-gradient(to top, rgb(97, 175, 52) 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover
+{
+    background-size: 100% 100%;
+}
+}
+.colortextemenu4
+{
+    font-family: 'Farsan', cursive;
+    font-size: 120%;
+}
 .trait1menu4
 {
     width: 20%;
@@ -457,31 +609,156 @@ article
     width: 20%;
     margin-left: 10px;
 }
-.titresousmenu4
-{
-    margin-top: 0px;
-}
-.titremenu4bis
-{
-    text-align: center;
-    margin-top: 5%;
-    background-image: -webkit-linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
-    background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-}
 /* --------------------MENTIONS LEGALES--------------------
 -----------------------------------------------------------
 -----------------------------------------------------------
 ----------------------------------------------------------- */
+.mentionslegales
+{
+    margin: 5% 5% 10% 5%;
+    font-family: 'Mate SC', serif;
+}
+.marginmentions
+{
+    margin-left: 5%;
+}
 
 
 
+/* --------------------MEDIA 4096px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+@media all and (min-width: 4096px)
+{
+    .bandeautitre 
+    {
+        text-align: center;
+        width: 100%;
+        background-color: #45a186;
+        height: 250px;
+        padding-top: 0, 9%;
+        font-size: 600%;
+    }
+    #menu1234 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 1000%;
+        text-align: center;
+    }
+    #transform 
+    {
+        height: 2400px;
+        width: 2000px;
+        box-shadow: 1px 1px 12px #686767;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bandeaufooter 
+    {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 800%;
+    }
+    .prochainement 
+    {
+        color: #f8cd3f;
+        font-size: 550%;
+        margin-top: -5%;
+    }
+    .mentions 
+    {
+        color: #f8cd3f;
+        margin-left: 15%;
+        width: 1000px;
+    }
+    .contact 
+    {
+        color: #f8cd3f;
+        margin-right: 15%;
+        width: 1000px;
+    }
+}
 
 
-
-
+/* --------------------MEDIA 1500px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+------------------------------------------------------- */
+@media all and (min-width: 3000px)
+{
+    .bandeautitre 
+    {
+        text-align: center;
+        width: 100%;
+        background-color: #45a186;
+        height: 250px;
+        padding-top: 0, 9%;
+        font-size: 600%;
+    }
+    #menu1234 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        font-size: 1000%;
+        text-align: center;
+    }
+    #transform 
+    {
+        height: 2400px;
+        width: 2000px;
+        box-shadow: 1px 1px 12px #686767;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bandeaufooter 
+    {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 800%;
+    }
+    .prochainement 
+    {
+        color: #f8cd3f;
+        font-size: 550%;
+        margin-top: -5%;
+    }
+    .mentions 
+    {
+        color: #f8cd3f;
+        margin-left: 15%;
+        width: 1000px;
+    }
+    .contact 
+    {
+        color: #f8cd3f;
+        margin-right: 15%;
+        width: 1000px;
+    }
+}
 
 
 /* --------------------MEDIA 1000px--------------------
