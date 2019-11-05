@@ -1353,7 +1353,7 @@ article {
 
   /*-----HEADER-----*/
   .titremenu2bis {
-    font-size: 150%;
+    font-size: 280%;
     text-align: center;
     margin-top: 5%;
     background-image: -webkit-linear-gradient(to right, #f3b42b, #9352e7);
@@ -1369,7 +1369,7 @@ article {
 
   /*-----BODY-----*/
   .titresousmenu2- {
-    font-size: 130%;
+    font-size: 200%;
     margin-top: -2px;
     color: #f3b42b;
     font-family: "Crimson Pro", serif;
@@ -1382,7 +1382,7 @@ article {
   }
 
   .titresousmenu2-- {
-    font-size: 130%;
+    font-size: 200%;
     margin-top: -2px;
     color: #9352e7;
     font-family: "Crimson Pro", serif;
@@ -1395,7 +1395,7 @@ article {
   }
 
   .titresousmenu2--- {
-    font-size: 130%;
+    font-size: 200%;
     margin-top: -2px;
     color: #4e43e9;
     font-family: "Crimson Pro", serif;
@@ -1408,19 +1408,19 @@ article {
   }
 
   .colortext1menu2 {
-    font-size: 120%;
+    font-size: 160%;
     color: #f3b42b;
     font-family: "Crimson Pro", serif;
   }
 
   .colortext2menu2 {
-    font-size: 120%;
+    font-size: 160%;
     color: #9352e7;
     font-family: "Crimson Pro", serif;
   }
 
   .colortext3menu2 {
-    font-size: 120%;
+    font-size: 160%;
     color: #4e43e9;
     font-family: "Crimson Pro", serif;
   }
@@ -1442,7 +1442,7 @@ article {
     background-clip: text;
     -webkit-background-clip: text;
     font-family: "Allura", cursive;
-    font-size: 150%;
+    font-size: 280%;
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
@@ -1450,8 +1450,8 @@ article {
 
   /*-----BODY-----*/
   .titresousmenu3- {
-    font-size: 130%;
-    margin-top: 40px;
+    font-size: 200%;
+    margin-top: 10px;
     font-family: "Farsan", cursive;
     background: linear-gradient(to top, #211ee4 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
@@ -1462,8 +1462,8 @@ article {
   }
 
   .titresousmenu3-- {
-    font-size: 130%;
-    margin-top: 40px;
+    font-size: 200%;
+    margin-top: 10px;
     font-family: "Farsan", cursive;
     background: linear-gradient(to top, #3f81fc 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
@@ -1474,8 +1474,8 @@ article {
   }
 
   .titresousmenu3--- {
-    font-size: 130%;
-    margin-top: 40px;
+    font-size: 200%;
+    margin-top: 10px;
     font-family: "Farsan", cursive;
     background: linear-gradient(to top, #3fc0fc 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
@@ -1487,7 +1487,7 @@ article {
 
   .colortextemenu3 {
     font-family: "Farsan", cursive;
-    font-size: 120%;
+    font-size: 160%;
   }
 
   /*--------------------MENU 4--------------------*/
@@ -1497,7 +1497,7 @@ article {
   }
 
   .titremenu4bis {
-    font-size: 150%;
+    font-size: 270%;
     text-align: center;
     margin-top: 5%;
     background-image: -webkit-linear-gradient(to right, green, #a5ff71);
@@ -1513,7 +1513,7 @@ article {
 
   /*-----BODY-----*/
   .titresousmenu4 {
-    font-size: 130%;
+    font-size: 200%;
     margin-top: 0px;
     font-family: "Farsan", cursive;
     background: linear-gradient(to top, #61af34 2px, transparent 3px) no-repeat;
@@ -1526,7 +1526,7 @@ article {
 
   .colortextemenu4 {
     font-family: "Farsan", cursive;
-    font-size: 120%;
+    font-size: 160%;
   }
 }
 /*--------------------MEDIA 700px--------------------
