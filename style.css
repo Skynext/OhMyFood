@@ -244,10 +244,10 @@ article {
     transform-origin: center center;
   }
 }
-/* --------------------ALL MENU------------------------
+/*--------------------ALL MENU------------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
+-------------------------------------------------------*/
 #groupetrait {
   display: flex;
   justify-content: center;
@@ -263,10 +263,10 @@ article {
   justify-content: space-between;
 }
 
-/* --------------------MENU 1--------------------------
+/*--------------------MENU 1--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
+-------------------------------------------------------*/
 /*-----GENERALE-----*/
 .backgroundmenu1 {
   background-color: #fddce1;
@@ -329,10 +329,10 @@ article {
   margin-right: 20px;
 }
 
-/* --------------------MENU 2--------------------------
+/*--------------------MENU 2--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
+-------------------------------------------------------*/
 /*-----GENERALE-----*/
 .backgroundmenu2 {
   background-color: #fceff1;
@@ -436,10 +436,10 @@ article {
   margin-left: 10px;
 }
 
-/* --------------------MENU 3--------------------------
+/*--------------------MENU 3--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
+-------------------------------------------------------*/
 /*-----GENERALE-----*/
 .backgroundmenu3 {
   background-color: #dbdbdb;
@@ -531,10 +531,10 @@ article {
   margin-left: 10px;
 }
 
-/* --------------------MENU 4--------------------------
+/*--------------------MENU 4--------------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
+-------------------------------------------------------*/
 /*-----GENERALE-----*/
 .backgroundmenu4 {
   margin-bottom: 150px;
@@ -582,10 +582,10 @@ article {
   margin-left: 10px;
 }
 
-/* --------------------MENTIONS LEGALES--------------------
+/*--------------------MENTIONS LEGALES--------------------
 -----------------------------------------------------------
 -----------------------------------------------------------
------------------------------------------------------------ */
+-----------------------------------------------------------*/
 .mentionslegales {
   margin: 5% 5% 10% 5%;
   font-family: "Mate SC", serif;
@@ -595,18 +595,319 @@ article {
   margin-left: 5%;
 }
 
-/* --------------------MEDIA 4096px--------------------
+/*--------------------MEDIA 4096px--------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
+-------------------------------------------------------*/
 @media all and (min-width: 4096px) {
+  /*--------------------ACCEUIL--------------------*/
+  /*----------HEADER----------*/
   .bandeautitre {
     text-align: center;
     width: 100%;
     background-color: #45a186;
-    height: 250px;
+    height: 200px;
     padding-top: 0, 9%;
+    font-size: 500%;
+  }
+
+  /*----------BODY----------*/
+  #menu1234 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 800%;
+    text-align: center;
+  }
+
+  #transform {
+    height: 2100px;
+    width: 1750px;
+    box-shadow: 1px 1px 12px #686767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 380%;
+    margin-top: -5%;
+  }
+
+  /*----------FOOTER----------*/
+  .bandeaufooter {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-size: 600%;
+  }
+
+  .mentions {
+    color: #f8cd3f;
+    margin-left: 15%;
+    width: 800px;
+  }
+
+  .contact {
+    color: #f8cd3f;
+    margin-right: 15%;
+    width: 800px;
+  }
+
+  /*------------------------------MENU------------------------------*/
+  /*----------ALL MENU----------*/
+  .textmenu {
+    text-align: left;
+    margin: 0 auto;
+    width: 2000px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /*--------------------MENU 1--------------------*/
+  .titresousmenu1 {
+    font-size: 700%;
+    margin-top: -2px;
+    color: #553d1e;
+    font-family: "Farsan", cursive;
+    background: linear-gradient(to top, #553d1e 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .titresousmenu1:hover {
+    background-size: 100% 100%;
+  }
+
+  .titremenu1bis {
+    text-align: center;
+    margin-top: 5%;
+    color: #553d1e;
+    font-family: "Kaushan Script", cursive;
+    font-size: 400%;
+  }
+
+  .pieddepage {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    color: #553d1e;
+    font-size: 700%;
+    display: flex;
+    justify-content: center;
+    font-family: "Kaushan Script", cursive;
+  }
+
+  .colortextmenu1 {
+    color: #553d1e;
+    font-size: 400%;
+    font-family: "Farsan", cursive;
+  }
+
+  /*--------------------MENU 2--------------------*/
+  /*-----GENERALE-----*/
+  .backgroundmenu2 {
+    background-color: #fceff1;
+    margin-bottom: 650px;
+  }
+
+  /*-----HEADER-----*/
+  .titremenu2bis {
+    font-size: 700%;
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, #f3b42b, #9352e7);
+    background-image: linear-gradient(to right, #f3b42b, #9352e7);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Lobster Two", cursive;
+  }
+
+  /*-----BODY-----*/
+  .titresousmenu2- {
+    font-size: 600%;
+    margin-top: -2px;
+    color: #f3b42b;
+    font-family: "Crimson Pro", serif;
+    background: linear-gradient(to top, #f3b42b 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .titresousmenu2-:hover {
+    background-size: 100% 100%;
+  }
+
+  .titresousmenu2-- {
+    font-size: 600%;
+    margin-top: -2px;
+    color: #9352e7;
+    font-family: "Crimson Pro", serif;
+    background: linear-gradient(to top, #9352e7 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .titresousmenu2--:hover {
+    background-size: 100% 100%;
+  }
+
+  .titresousmenu2--- {
+    font-size: 600%;
+    margin-top: -2px;
+    color: #4e43e9;
+    font-family: "Crimson Pro", serif;
+    background: linear-gradient(to top, #4e43e9 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .titresousmenu2---:hover {
+    background-size: 100% 100%;
+  }
+
+  .colortext1menu2 {
+    font-size: 400%;
+    color: #f3b42b;
+    font-family: "Crimson Pro", serif;
+  }
+
+  .colortext2menu2 {
+    font-size: 400%;
+    color: #9352e7;
+    font-family: "Crimson Pro", serif;
+  }
+
+  .colortext3menu2 {
+    font-size: 400%;
+    color: #4e43e9;
+    font-family: "Crimson Pro", serif;
+  }
+
+  /*--------------------MENU 3--------------------*/
+  /*-----GENERALE-----*/
+  .backgroundmenu3 {
+    background-color: #dbdbdb;
+    margin-bottom: 450px;
+  }
+
+  /*-----HEADER-----*/
+  .titremenu3bis {
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, #211ee4, #3fc0fc);
+    background-image: linear-gradient(to right, #211ee4, #3fc0fc);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: "Allura", cursive;
+    font-size: 950%;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*-----BODY-----*/
+  .titresousmenu3- {
+    font-size: 600%;
+    margin-top: 40px;
+    font-family: "Farsan", cursive;
+    background: linear-gradient(to top, #211ee4 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .titresousmenu3-:hover {
+    background-size: 100% 100%;
+  }
+
+  .titresousmenu3-- {
+    font-size: 600%;
+    margin-top: 40px;
+    font-family: "Farsan", cursive;
+    background: linear-gradient(to top, #3f81fc 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .titresousmenu3--:hover {
+    background-size: 100% 100%;
+  }
+
+  .titresousmenu3--- {
+    font-size: 600%;
+    margin-top: 40px;
+    font-family: "Farsan", cursive;
+    background: linear-gradient(to top, #3fc0fc 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .titresousmenu3---:hover {
+    background-size: 100% 100%;
+  }
+
+  .colortextemenu3 {
+    font-family: "Farsan", cursive;
+    font-size: 450%;
+  }
+
+  /*--------------------MENU 4--------------------*/
+  /*-----GENERALE-----*/
+  .backgroundmenu4 {
+    margin-bottom: 650px;
+  }
+
+  .titremenu4bis {
+    font-size: 800%;
+    text-align: center;
+    margin-top: 5%;
+    background-image: -webkit-linear-gradient(to right, green, #a5ff71);
+    background-image: linear-gradient(to right, green, #a5ff71);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-family: "Kavivanar", cursive;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*-----BODY-----*/
+  .titresousmenu4 {
+    font-size: 650%;
+    margin-top: 0px;
+    font-family: "Farsan", cursive;
+    background: linear-gradient(to top, #61af34 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+  }
+  .titresousmenu4:hover {
+    background-size: 100% 100%;
+  }
+
+  .colortextemenu4 {
+    font-family: "Farsan", cursive;
+    font-size: 450%;
+  }
+}
+/*--------------------MEDIA 3500px-4096px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
+@media all and (min-width: 3500px) and (max-width: 4096px) {
+  .bandeautitre {
+    text-align: center;
+    width: 100%;
+    background-color: #45a186;
+    height: 170px;
+    padding-top: 0, 9%;
+    font-size: 450%;
   }
 
   #menu1234 {
@@ -615,13 +916,13 @@ article {
     justify-content: space-around;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 1000%;
+    font-size: 650%;
     text-align: center;
   }
 
   #transform {
-    height: 2400px;
-    width: 2000px;
+    height: 1750px;
+    width: 1375px;
     box-shadow: 1px 1px 12px #686767;
     display: flex;
     justify-content: center;
@@ -634,43 +935,43 @@ article {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 250px;
+    height: 170px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 800%;
+    font-size: 600%;
   }
 
   .prochainement {
     color: #f8cd3f;
-    font-size: 550%;
+    font-size: 300%;
     margin-top: -5%;
   }
 
   .mentions {
     color: #f8cd3f;
     margin-left: 15%;
-    width: 1000px;
+    width: 700px;
   }
 
   .contact {
     color: #f8cd3f;
     margin-right: 15%;
-    width: 1000px;
+    width: 700px;
   }
 }
-/* --------------------MEDIA 1500px--------------------
+/*--------------------MEDIA 3000px-3500px--------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
-@media all and (min-width: 3000px) {
+-------------------------------------------------------*/
+@media all and (min-width: 3000px) and (max-width: 3500px) {
   .bandeautitre {
     text-align: center;
     width: 100%;
     background-color: #45a186;
-    height: 250px;
+    height: 140px;
     padding-top: 0, 9%;
-    font-size: 600%;
+    font-size: 350%;
   }
 
   #menu1234 {
@@ -679,13 +980,13 @@ article {
     justify-content: space-around;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 1000%;
+    font-size: 500%;
     text-align: center;
   }
 
   #transform {
-    height: 2400px;
-    width: 2000px;
+    height: 1450px;
+    width: 1175px;
     box-shadow: 1px 1px 12px #686767;
     display: flex;
     justify-content: center;
@@ -698,46 +999,243 @@ article {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 250px;
+    height: 140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 800%;
+    font-size: 450%;
   }
 
   .prochainement {
     color: #f8cd3f;
-    font-size: 550%;
+    font-size: 260%;
+    margin-top: -10%;
+  }
+
+  .mentions {
+    color: #f8cd3f;
+    margin-left: 15%;
+    width: 600px;
+  }
+
+  .contact {
+    color: #f8cd3f;
+    margin-right: 15%;
+    width: 600px;
+  }
+}
+/*--------------------MEDIA 2500px-3000px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
+@media all and (min-width: 2500px) and (max-width: 3000px) {
+  .bandeautitre {
+    text-align: center;
+    width: 100%;
+    background-color: #45a186;
+    height: 110px;
+    padding-top: 0, 9%;
+    font-size: 300%;
+  }
+
+  #menu1234 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 400%;
+    text-align: center;
+  }
+
+  #transform {
+    height: 1200px;
+    width: 1000px;
+    box-shadow: 1px 1px 12px #686767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bandeaufooter {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 400%;
+  }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 220%;
+    margin-top: -8%;
+  }
+
+  .mentions {
+    color: #f8cd3f;
+    margin-left: 15%;
+    width: 500px;
+  }
+
+  .contact {
+    color: #f8cd3f;
+    margin-right: 15%;
+    width: 500px;
+  }
+}
+/*--------------------MEDIA 2000px-2500px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
+@media all and (min-width: 2000px) and (max-width: 2500px) {
+  .bandeautitre {
+    text-align: center;
+    width: 100%;
+    background-color: #45a186;
+    height: 90px;
+    padding-top: 0, 9%;
+    font-size: 250%;
+  }
+
+  #menu1234 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 350%;
+    text-align: center;
+  }
+
+  #transform {
+    height: 1150px;
+    width: 850px;
+    box-shadow: 1px 1px 12px #686767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bandeaufooter {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 300%;
+  }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 180%;
     margin-top: -5%;
   }
 
   .mentions {
     color: #f8cd3f;
     margin-left: 15%;
-    width: 1000px;
+    width: 400px;
   }
 
   .contact {
     color: #f8cd3f;
     margin-right: 15%;
-    width: 1000px;
+    width: 400px;
   }
 }
-/* --------------------MEDIA 1000px--------------------
+/*--------------------MEDIA 1500px-2000px--------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
+-------------------------------------------------------*/
+@media all and (min-width: 1500px) and (max-width: 2000px) {
+  .bandeautitre {
+    text-align: center;
+    width: 100%;
+    background-color: #45a186;
+    height: 70px;
+    padding-top: 0, 9%;
+    font-size: 180%;
+  }
+
+  #menu1234 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 300%;
+    text-align: center;
+  }
+
+  #transform {
+    height: 1000px;
+    width: 700px;
+    box-shadow: 1px 1px 12px #686767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bandeaufooter {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 300%;
+  }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 150%;
+    margin-top: -5%;
+  }
+
+  .mentions {
+    color: #f8cd3f;
+    margin-left: 15%;
+    width: 400px;
+  }
+
+  .contact {
+    color: #f8cd3f;
+    margin-right: 15%;
+    width: 400px;
+  }
+}
+/*--------------------MEDIA 1000px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
 @media all and (max-width: 1000px) {
   .background2 {
     margin-top: 5%;
   }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 100%;
+  }
 }
-/* --------------------MEDIA 700px--------------------
+/*--------------------MEDIA 700px--------------------
 -------------------------------------------------------
 -------------------------------------------------------
-------------------------------------------------------- */
+-------------------------------------------------------*/
 @media all and (max-width: 700px) {
-  /* ----------BODY----------*/
+  /*----------BODY----------*/
   #menu1234 {
     display: flex;
     flex-wrap: wrap;
@@ -821,6 +1319,73 @@ article {
   .prochainement {
     color: #f8cd3f;
     font-size: 80%;
+  }
+
+  .mentions {
+    color: #f8cd3f;
+    margin-left: 15%;
+    width: 200px;
+  }
+
+  .contact {
+    color: #f8cd3f;
+    margin-right: 15%;
+    width: 200px;
+  }
+}
+/*--------------------MEDIA 500px--------------------
+-------------------------------------------------------
+-------------------------------------------------------
+-------------------------------------------------------*/
+@media all and (max-width: 500px) {
+  #transform {
+    height: 400px;
+    width: 300px;
+    box-shadow: 1px 1px 12px #686767;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .bandeaufooter {
+    background-color: #45a186;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+  }
+
+  article {
+    text-align: center;
+    background-color: #45a186;
+    margin-bottom: 20%;
+    font-size: 200%;
+    width: 50%;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .prochainement {
+    color: #f8cd3f;
+    font-size: 60%;
+  }
+
+  .mentions {
+    color: #f8cd3f;
+    margin-left: 15%;
+    width: 130px;
+  }
+
+  .contact {
+    color: #f8cd3f;
+    margin-right: 15%;
+    width: 130px;
   }
 }
 
