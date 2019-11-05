@@ -196,15 +196,39 @@ article
 }
 .point1
 {
-
+    animation: point1 2s infinite;
+}
+@keyframes point1 {
+0% { opacity: 1;
+}
+50% { opacity: 0;
+}
+100% { opacity: 0;
+}
 }
 .point2
 {
-
+    animation: point2 2s infinite;
+}
+@keyframes point2 {
+    0% { opacity: 0;
+    }
+    50% { opacity: 1;
+    }
+    100% { opacity: 0;
+    }
 }
 .point3
 {
-
+    animation: point3 2s infinite;
+}
+@keyframes point3 {
+    0% { opacity: 0;
+    }
+    50% { opacity: 0;
+    }
+    100% { opacity: 1;
+    }
 }
 /*--------------------Bandeau bas--------------------
 -------------------------------------------------------
