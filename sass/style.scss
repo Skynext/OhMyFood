@@ -1309,14 +1309,14 @@ article
     {
         text-align: left;
         margin: 0 auto;
-        width: 500px;
+        width: 700px;
         display: flex;
         justify-content: space-between;
     }
     /*--------------------MENU 1--------------------*/
     .titresousmenu1
     {
-        font-size: 150%;
+        font-size: 280%;
         margin-top: -2px;
         color: rgb(85, 61, 30);
         font-family: 'Farsan', cursive;
@@ -1334,14 +1334,14 @@ article
         margin-top: 5%;
         color: #553d1e;
         font-family: "Kaushan Script", cursive;
-        font-size: 120%;
+        font-size: 180%;
     }
     .pieddepage 
     {
         margin-top: 10%;
         margin-bottom: 10%;
         color: #553d1e;
-        font-size: 150%;
+        font-size: 250%;
         display: flex;
         justify-content: center;
         font-family: "Kaushan Script", cursive;
@@ -1349,8 +1349,18 @@ article
     .colortextmenu1 
     {
         color: #553d1e;
-        font-size: 120%;
+        font-size: 170%;
         font-family: "Farsan", cursive;
+    }
+    .trait1menu1
+    {
+        width: 30%;
+        margin-right: 10px;
+    }
+    .trait2menu1
+    {
+        width: 30%;
+        margin-left: 10px;
     }
     /*--------------------MENU 2--------------------*/
     /*-----GENERALE-----*/
