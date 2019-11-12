@@ -20,7 +20,7 @@ a, a:hover, a:visited, a:active {
   width: 100%;
   background-color: #45a186;
   height: 80px;
-  padding-top: 0, 9%;
+  padding-top: 0.9%;
   font-size: 190%;
 }
 
@@ -42,7 +42,7 @@ a, a:hover, a:visited, a:active {
   text-align: center;
 }
 
-#transform {
+.transform {
   height: 600px;
   width: 500px;
   box-shadow: 1px 1px 12px #686767;
@@ -73,6 +73,7 @@ a, a:hover, a:visited, a:active {
   transform: scale(1);
   transition: transform 400ms;
 }
+
 #Menu1:hover {
   transform: scale(1.5);
   opacity: 0.5;
@@ -83,6 +84,7 @@ a, a:hover, a:visited, a:active {
   transform: scale(1);
   transition: transform 400ms;
 }
+
 #Menu2:hover {
   transform: scale(1.5);
   opacity: 0.5;
@@ -93,6 +95,7 @@ a, a:hover, a:visited, a:active {
   transform: scale(1);
   transition: transform 400ms;
 }
+
 #Menu3:hover {
   transform: scale(1.5);
   opacity: 0.5;
@@ -103,6 +106,7 @@ a, a:hover, a:visited, a:active {
   transform: scale(1);
   transition: transform 400ms;
 }
+
 #Menu4:hover {
   transform: scale(1.5);
   opacity: 0.5;
@@ -138,7 +142,6 @@ i {
   background-image: -webkit-linear-gradient(to right, #da1b02, #e68b14);
   background-image: linear-gradient(to right, #da1b02, #e68b14);
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -146,7 +149,6 @@ i {
   background-image: -webkit-linear-gradient(to right, #f3b42b, #9352e7);
   background-image: linear-gradient(to right, #f3b42b, #9352e7);
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
   font-family: "Lobster Two", cursive;
 }
@@ -155,7 +157,6 @@ i {
   background-image: -webkit-linear-gradient(to right, #211ee4, #3fc0fc);
   background-image: linear-gradient(to right, #211ee4, #3fc0fc);
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
   font-family: "Allura", cursive;
 }
@@ -165,7 +166,6 @@ i {
   background-image: -webkit-linear-gradient(to right, green, #a5ff71);
   background-image: linear-gradient(to right, green, #a5ff71);
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
 }
 
@@ -293,7 +293,7 @@ article {
 -------------------------------------------------------
 -------------------------------------------------------
 -------------------------------------------------------*/
-#groupetrait {
+.groupetrait {
   display: flex;
   justify-content: center;
   margin-top: 5%;
@@ -338,6 +338,7 @@ article {
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
+
 .titresousmenu1:hover {
   background-size: 100% 100%;
 }
@@ -391,7 +392,6 @@ article {
   background-image: -webkit-linear-gradient(to right, #f3b42b, #9352e7);
   background-image: linear-gradient(to right, #f3b42b, #9352e7);
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
   width: fit-content;
   margin-left: auto;
@@ -408,6 +408,7 @@ article {
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
+
 .titresousmenu2-:hover {
   background-size: 100% 100%;
 }
@@ -420,6 +421,7 @@ article {
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
+
 .titresousmenu2--:hover {
   background-size: 100% 100%;
 }
@@ -432,6 +434,7 @@ article {
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
+
 .titresousmenu2---:hover {
   background-size: 100% 100%;
 }
@@ -498,7 +501,6 @@ article {
   background-image: -webkit-linear-gradient(to right, #211ee4, #3fc0fc);
   background-image: linear-gradient(to right, #211ee4, #3fc0fc);
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
   font-family: "Allura", cursive;
   font-size: 300%;
@@ -515,6 +517,7 @@ article {
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
+
 .titresousmenu3-:hover {
   background-size: 100% 100%;
 }
@@ -526,6 +529,7 @@ article {
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
+
 .titresousmenu3--:hover {
   background-size: 100% 100%;
 }
@@ -537,6 +541,7 @@ article {
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
+
 .titresousmenu3---:hover {
   background-size: 100% 100%;
 }
@@ -592,7 +597,6 @@ article {
   background-image: -webkit-linear-gradient(to right, green, #a5ff71);
   background-image: linear-gradient(to right, green, #a5ff71);
   color: transparent;
-  background-clip: text;
   -webkit-background-clip: text;
   font-family: "Kavivanar", cursive;
   width: fit-content;
@@ -608,6 +612,7 @@ article {
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
+
 .titresousmenu4:hover {
   background-size: 100% 100%;
 }
@@ -652,7 +657,7 @@ article {
     width: 100%;
     background-color: #45a186;
     height: 200px;
-    padding-top: 0, 9%;
+    padding-top: 0.9%;
     font-size: 500%;
   }
 
@@ -667,7 +672,7 @@ article {
     text-align: center;
   }
 
-  #transform {
+  .transform {
     height: 2100px;
     width: 1750px;
     box-shadow: 1px 1px 12px #686767;
@@ -728,6 +733,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu1:hover {
     background-size: 100% 100%;
   }
@@ -771,7 +777,6 @@ article {
     background-image: -webkit-linear-gradient(to right, #f3b42b, #9352e7);
     background-image: linear-gradient(to right, #f3b42b, #9352e7);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     width: fit-content;
     margin-left: auto;
@@ -789,6 +794,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu2-:hover {
     background-size: 100% 100%;
   }
@@ -802,6 +808,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu2--:hover {
     background-size: 100% 100%;
   }
@@ -815,6 +822,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu2---:hover {
     background-size: 100% 100%;
   }
@@ -851,7 +859,6 @@ article {
     background-image: -webkit-linear-gradient(to right, #211ee4, #3fc0fc);
     background-image: linear-gradient(to right, #211ee4, #3fc0fc);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: "Allura", cursive;
     font-size: 950%;
@@ -869,6 +876,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu3-:hover {
     background-size: 100% 100%;
   }
@@ -881,6 +889,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu3--:hover {
     background-size: 100% 100%;
   }
@@ -893,6 +902,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu3---:hover {
     background-size: 100% 100%;
   }
@@ -915,7 +925,6 @@ article {
     background-image: -webkit-linear-gradient(to right, green, #a5ff71);
     background-image: linear-gradient(to right, green, #a5ff71);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: "Kavivanar", cursive;
     width: fit-content;
@@ -932,6 +941,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu4:hover {
     background-size: 100% 100%;
   }
@@ -951,7 +961,7 @@ article {
     width: 100%;
     background-color: #45a186;
     height: 170px;
-    padding-top: 0, 9%;
+    padding-top: 0.9%;
     font-size: 450%;
   }
 
@@ -965,7 +975,7 @@ article {
     text-align: center;
   }
 
-  #transform {
+  .transform {
     height: 1750px;
     width: 1375px;
     box-shadow: 1px 1px 12px #686767;
@@ -1015,7 +1025,7 @@ article {
     width: 100%;
     background-color: #45a186;
     height: 140px;
-    padding-top: 0, 9%;
+    padding-top: 0.9%;
     font-size: 350%;
   }
 
@@ -1029,7 +1039,7 @@ article {
     text-align: center;
   }
 
-  #transform {
+  .transform {
     height: 1450px;
     width: 1175px;
     box-shadow: 1px 1px 12px #686767;
@@ -1079,7 +1089,7 @@ article {
     width: 100%;
     background-color: #45a186;
     height: 110px;
-    padding-top: 0, 9%;
+    padding-top: 0.9%;
     font-size: 300%;
   }
 
@@ -1093,7 +1103,7 @@ article {
     text-align: center;
   }
 
-  #transform {
+  .transform {
     height: 1200px;
     width: 1000px;
     box-shadow: 1px 1px 12px #686767;
@@ -1143,7 +1153,7 @@ article {
     width: 100%;
     background-color: #45a186;
     height: 90px;
-    padding-top: 0, 9%;
+    padding-top: 0.9%;
     font-size: 250%;
   }
 
@@ -1157,7 +1167,7 @@ article {
     text-align: center;
   }
 
-  #transform {
+  .transform {
     height: 1150px;
     width: 850px;
     box-shadow: 1px 1px 12px #686767;
@@ -1207,7 +1217,7 @@ article {
     width: 100%;
     background-color: #45a186;
     height: 70px;
-    padding-top: 0, 9%;
+    padding-top: 0.9%;
     font-size: 180%;
   }
 
@@ -1221,7 +1231,7 @@ article {
     text-align: center;
   }
 
-  #transform {
+  .transform {
     height: 1000px;
     width: 700px;
     box-shadow: 1px 1px 12px #686767;
@@ -1306,6 +1316,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu1:hover {
     background-size: 100% 100%;
   }
@@ -1359,7 +1370,6 @@ article {
     background-image: -webkit-linear-gradient(to right, #f3b42b, #9352e7);
     background-image: linear-gradient(to right, #f3b42b, #9352e7);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     width: fit-content;
     margin-left: auto;
@@ -1377,6 +1387,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu2-:hover {
     background-size: 100% 100%;
   }
@@ -1390,6 +1401,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu2--:hover {
     background-size: 100% 100%;
   }
@@ -1403,6 +1415,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu2---:hover {
     background-size: 100% 100%;
   }
@@ -1439,7 +1452,6 @@ article {
     background-image: -webkit-linear-gradient(to right, #211ee4, #3fc0fc);
     background-image: linear-gradient(to right, #211ee4, #3fc0fc);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: "Allura", cursive;
     font-size: 280%;
@@ -1457,6 +1469,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu3-:hover {
     background-size: 100% 100%;
   }
@@ -1469,6 +1482,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu3--:hover {
     background-size: 100% 100%;
   }
@@ -1481,6 +1495,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu3---:hover {
     background-size: 100% 100%;
   }
@@ -1503,7 +1518,6 @@ article {
     background-image: -webkit-linear-gradient(to right, green, #a5ff71);
     background-image: linear-gradient(to right, green, #a5ff71);
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: "Kavivanar", cursive;
     width: fit-content;
@@ -1520,6 +1534,7 @@ article {
     background-size: 0 100%;
     transition: background-size 0.3s;
   }
+
   .titresousmenu4:hover {
     background-size: 100% 100%;
   }
@@ -1545,7 +1560,7 @@ article {
     text-align: center;
   }
 
-  #transform {
+  .transform {
     height: 500px;
     width: 400px;
     box-shadow: 1px 1px 12px #686767;
@@ -1558,6 +1573,7 @@ article {
     transform: scale(1);
     transition: transform 400ms;
   }
+
   #Menu1:hover {
     transform: scale(1.25);
     opacity: 0.5;
@@ -1567,6 +1583,7 @@ article {
     transform: scale(1);
     transition: transform 400ms;
   }
+
   #Menu2:hover {
     transform: scale(1.25);
     opacity: 0.5;
@@ -1576,6 +1593,7 @@ article {
     transform: scale(1);
     transition: transform 400ms;
   }
+
   #Menu3:hover {
     transform: scale(1.25);
     opacity: 0.5;
@@ -1585,6 +1603,7 @@ article {
     transform: scale(1);
     transition: transform 400ms;
   }
+
   #Menu4:hover {
     transform: scale(1.25);
     opacity: 0.5;

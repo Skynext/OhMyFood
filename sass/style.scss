@@ -22,7 +22,7 @@ a, a:hover, a:visited, a:active
     width: 100%;
     background-color: rgb(69, 161, 134);
     height: 80px;
-    padding-top: 0,9%;
+    padding-top: 0.9%;
     font-size: 190%;
 }
 .titre
@@ -43,7 +43,7 @@ a, a:hover, a:visited, a:active
     font-size: 200%;
     text-align: center;   
 }
-#transform
+.transform
 {
     height: 600px;
     width: 500px;
@@ -74,45 +74,45 @@ a, a:hover, a:visited, a:active
     font-family: 'Farsan', cursive;
     transform: scale(1);
     transition: transform 400ms;
-    &:hover 
+}
+    #Menu1:hover 
     {
         transform: scale(1.5);
         opacity: 0.5; 
     }
-}
 #Menu2
 {
     font-family: 'Crimson Pro', serif;
     transform: scale(1);
     transition: transform 400ms;
-    &:hover 
+}
+    #Menu2:hover 
     {
         transform: scale(1.5);
         opacity: 0.5;
     }
-}
 #Menu3
 {
     font-family: 'Farsan', cursive;
     transform: scale(1);
     transition: transform 400ms;
-    &:hover 
+}
+    #Menu3:hover 
     {
         transform: scale(1.5);
         opacity: 0.5;
     }
-}
 #Menu4
 {
     font-family: 'Farsan', cursive;
     transform: scale(1);
     transition: transform 400ms;
-    &:hover 
+}
+    #Menu4:hover 
     {
         transform: scale(1.5);
         opacity: 0.5;
     }
-}
 .texte1
 {
     padding-top: 5%;
@@ -144,7 +144,6 @@ i
     background-image: -webkit-linear-gradient(to right, rgb(218, 27, 2), rgb(230, 139, 20));
     background-image: linear-gradient(to right, rgb(218, 27, 2), rgb(230, 139, 20));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
 }
 .titremenu2
@@ -152,7 +151,6 @@ i
     background-image: -webkit-linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
     background-image: linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Lobster Two', cursive;
 }
@@ -161,7 +159,6 @@ i
     background-image: -webkit-linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
     background-image: linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Allura', cursive;
 }
@@ -171,7 +168,6 @@ i
     background-image: -webkit-linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
 }
 /*--------------------Prochainement--------------------
@@ -291,7 +287,7 @@ article
 -------------------------------------------------------
 -------------------------------------------------------
 -------------------------------------------------------*/
-#groupetrait
+.groupetrait
 {
     display: flex;
     justify-content: center;
@@ -336,10 +332,10 @@ article
     background: linear-gradient(to top, rgb(85, 61, 30) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+}
+    .titresousmenu1:hover
 {
     background-size: 100% 100%;
-}
 }
 .trait1menu1
 {
@@ -391,7 +387,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
     background-image: linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     width: fit-content;
     margin-left: auto;
@@ -407,10 +402,10 @@ article
     background: linear-gradient(to top, rgb(243, 180, 43) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+}
+    .titresousmenu2-:hover
 {
     background-size: 100% 100%;
-}
 }
 .titresousmenu2--
 {
@@ -420,10 +415,10 @@ article
     background: linear-gradient(to top, rgb(147, 82, 231) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+}
+    .titresousmenu2--:hover
 {
     background-size: 100% 100%;
-}
 }
 .titresousmenu2---
 {
@@ -433,10 +428,10 @@ article
     background: linear-gradient(to top, rgb(78, 67, 233) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+}
+    .titresousmenu2---:hover
 {
     background-size: 100% 100%;
-}
 }
 .colortext1menu2
 {
@@ -501,7 +496,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
     background-image: linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Allura', cursive;
     font-size: 300%;
@@ -517,10 +511,10 @@ article
     background: linear-gradient(to top, rgb(33, 30, 228) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+}
+    .titresousmenu3-:hover
 {
     background-size: 100% 100%;
-}
 }
 .titresousmenu3--
 {
@@ -528,11 +522,11 @@ article
     font-family: 'Farsan', cursive;
     background: linear-gradient(to top, rgb(63, 129, 252) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
-    transition: background-size 0.3s;
-    &:hover
+    transition: background-size 0.3s
+}
+    .titresousmenu3--:hover
 {
     background-size: 100% 100%;
-}
 }
 .titresousmenu3---
 {
@@ -541,10 +535,10 @@ article
     background: linear-gradient(to top, rgb(63, 192, 252) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+}
+    .titresousmenu3---:hover
 {
     background-size: 100% 100%;
-}
 }
 .colortextemenu3
 {
@@ -598,7 +592,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Kavivanar', cursive;
     width: fit-content;
@@ -613,10 +606,10 @@ article
     background: linear-gradient(to top, rgb(97, 175, 52) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+}
+    .titresousmenu4:hover
 {
     background-size: 100% 100%;
-}
 }
 .colortextemenu4
 {
@@ -663,7 +656,7 @@ article
         width: 100%;
         background-color: #45a186;
         height: 200px;
-        padding-top: 0, 9%;
+        padding-top: 0.9%;
         font-size: 500%;
     }
     /*----------BODY----------*/
@@ -677,7 +670,7 @@ article
         font-size: 800%;
         text-align: center;
     }
-    #transform 
+    .transform 
     {
         height: 2100px;
         width: 1750px;
@@ -738,10 +731,10 @@ article
         background: linear-gradient(to top, rgb(85, 61, 30) 2px, transparent 3px) no-repeat;
         background-size: 0 100%;
         transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu1:hover
     {
         background-size: 100% 100%;
-    }
     }
     .titremenu1bis 
     {
@@ -783,7 +776,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
     background-image: linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     width: fit-content;
     margin-left: auto;
@@ -800,10 +792,10 @@ article
     background: linear-gradient(to top, rgb(243, 180, 43) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu2-:hover
     {
     background-size: 100% 100%;
-    }
     }
     .titresousmenu2--
     {
@@ -814,10 +806,10 @@ article
     background: linear-gradient(to top, rgb(147, 82, 231) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu2--:hover
     {
     background-size: 100% 100%;
-    }
     }
     .titresousmenu2---
     {  
@@ -828,10 +820,10 @@ article
     background: linear-gradient(to top, rgb(78, 67, 233) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu2---:hover
     {
     background-size: 100% 100%;
-    }
     }
     .colortext1menu2
     {
@@ -866,7 +858,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
     background-image: linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Allura', cursive;
     font-size: 950%;
@@ -883,10 +874,10 @@ article
     background: linear-gradient(to top, rgb(33, 30, 228) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu3-:hover
     {
     background-size: 100% 100%;
-    }
     }
     .titresousmenu3--
     {
@@ -896,10 +887,10 @@ article
     background: linear-gradient(to top, rgb(63, 129, 252) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu3--:hover
     {
     background-size: 100% 100%;
-    }
     }
     .titresousmenu3---
     {
@@ -909,10 +900,10 @@ article
     background: linear-gradient(to top, rgb(63, 192, 252) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu3---:hover
     {
     background-size: 100% 100%;
-    }
     }
     .colortextemenu3
     {
@@ -933,7 +924,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Kavivanar', cursive;
     width: fit-content;
@@ -949,10 +939,10 @@ article
     background: linear-gradient(to top, rgb(97, 175, 52) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu4:hover
     {
     background-size: 100% 100%;
-    }
     }
     .colortextemenu4
     {
@@ -974,7 +964,7 @@ article
         width: 100%;
         background-color: #45a186;
         height: 170px;
-        padding-top: 0, 9%;
+        padding-top: 0.9%;
         font-size: 450%;
     }
     #menu1234 
@@ -987,7 +977,7 @@ article
         font-size: 650%;
         text-align: center;
     }
-    #transform 
+    .transform 
     {
         height: 1750px;
         width: 1375px;
@@ -1042,7 +1032,7 @@ article
         width: 100%;
         background-color: #45a186;
         height: 140px;
-        padding-top: 0, 9%;
+        padding-top: 0.9%;
         font-size: 350%;
     }
     #menu1234 
@@ -1055,7 +1045,7 @@ article
         font-size: 500%;
         text-align: center;
     }
-    #transform 
+    .transform 
     {
         height: 1450px;
         width: 1175px;
@@ -1110,7 +1100,7 @@ article
         width: 100%;
         background-color: #45a186;
         height: 110px;
-        padding-top: 0, 9%;
+        padding-top: 0.9%;
         font-size: 300%;
     }
     #menu1234 
@@ -1123,7 +1113,7 @@ article
         font-size: 400%;
         text-align: center;
     }
-    #transform 
+    .transform 
     {
         height: 1200px;
         width: 1000px;
@@ -1178,7 +1168,7 @@ article
         width: 100%;
         background-color: #45a186;
         height: 90px;
-        padding-top: 0, 9%;
+        padding-top: 0.9%;
         font-size: 250%;
     }
     #menu1234 
@@ -1191,7 +1181,7 @@ article
         font-size: 350%;
         text-align: center;
     }
-    #transform 
+    .transform 
     {
         height: 1150px;
         width: 850px;
@@ -1246,7 +1236,7 @@ article
         width: 100%;
         background-color: #45a186;
         height: 70px;
-        padding-top: 0, 9%;
+        padding-top: 0.9%;
         font-size: 180%;
     }
     #menu1234 
@@ -1259,7 +1249,7 @@ article
         font-size: 300%;
         text-align: center;
     }
-    #transform 
+    .transform 
     {
         height: 1000px;
         width: 700px;
@@ -1347,10 +1337,10 @@ article
         background: linear-gradient(to top, rgb(85, 61, 30) 2px, transparent 3px) no-repeat;
         background-size: 0 100%;
         transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu1:hover
     {
         background-size: 100% 100%;
-    }
     }
     .titremenu1bis 
     {
@@ -1402,7 +1392,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
     background-image: linear-gradient(to right, rgb(243, 180, 43), rgb(147, 82, 231));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     width: fit-content;
     margin-left: auto;
@@ -1419,10 +1408,10 @@ article
     background: linear-gradient(to top, rgb(243, 180, 43) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu2-:hover
     {
     background-size: 100% 100%;
-    }
     }
     .titresousmenu2--
     {
@@ -1433,10 +1422,10 @@ article
     background: linear-gradient(to top, rgb(147, 82, 231) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu2--:hover
     {
     background-size: 100% 100%;
-    }
     }
     .titresousmenu2---
     {  
@@ -1447,10 +1436,10 @@ article
     background: linear-gradient(to top, rgb(78, 67, 233) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu2---:hover
     {
     background-size: 100% 100%;
-    }
     }
     .colortext1menu2
     {
@@ -1485,7 +1474,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
     background-image: linear-gradient(to right, rgb(33, 30, 228), rgb(63, 192, 252));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Allura', cursive;
     font-size: 280%;
@@ -1502,10 +1490,10 @@ article
     background: linear-gradient(to top, rgb(33, 30, 228) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu3-:hover
     {
     background-size: 100% 100%;
-    }
     }
     .titresousmenu3--
     {
@@ -1515,10 +1503,10 @@ article
     background: linear-gradient(to top, rgb(63, 129, 252) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu3--:hover
     {
     background-size: 100% 100%;
-    }
     }
     .titresousmenu3---
     {
@@ -1528,10 +1516,10 @@ article
     background: linear-gradient(to top, rgb(63, 192, 252) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu3---:hover
     {
     background-size: 100% 100%;
-    }
     }
     .colortextemenu3
     {
@@ -1552,7 +1540,6 @@ article
     background-image: -webkit-linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(165, 255, 113));
     color: transparent;
-    background-clip: text;
     -webkit-background-clip: text;
     font-family: 'Kavivanar', cursive;
     width: fit-content;
@@ -1568,10 +1555,10 @@ article
     background: linear-gradient(to top, rgb(97, 175, 52) 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
-    &:hover
+    }
+    .titresousmenu4:hover
     {
     background-size: 100% 100%;
-    }
     }
     .colortextemenu4
     {
@@ -1604,7 +1591,7 @@ article
     font-size: 200%;
     text-align: center;   
     }   
-    #transform
+    .transform
     {
     height: 500px;
     width: 400px;
@@ -1617,41 +1604,41 @@ article
     {
     transform: scale(1);
     transition: transform 400ms;
-    &:hover 
+    }
+    #Menu1:hover 
     {
         transform: scale(1.25);
         opacity: 0.5; 
-    }
     }
     #Menu2
     {
     transform: scale(1);
     transition: transform 400ms;
-    &:hover 
+    }
+    #Menu2:hover 
     {
         transform: scale(1.25);
         opacity: 0.5;
-    }
     }
     #Menu3
     {
     transform: scale(1);
     transition: transform 400ms;
-    &:hover 
+    }
+    #Menu3:hover 
     {
         transform: scale(1.25);
         opacity: 0.5;
-    }
     }
     #Menu4
     {
     transform: scale(1);
     transition: transform 400ms;
-    &:hover 
+    }
+    #Menu4:hover 
     {
         transform: scale(1.25);
         opacity: 0.5;
-    }
     }
 /*----------FOOTER----------*/
     .bandeaufooter
